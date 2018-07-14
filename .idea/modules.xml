@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nextProject.iml" filepath="$PROJECT_DIR$/.idea/modules/nextProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nextProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nextProject_main.iml" group="nextProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nextProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nextProject_test.iml" group="nextProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second-web-selenium-byRecorder.iml" filepath="$PROJECT_DIR$/.idea/modules/second-web-selenium-byRecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second-web-selenium-byRecorder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/second-web-selenium-byRecorder_main.iml" group="second-web-selenium-byRecorder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/second-web-selenium-byRecorder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/second-web-selenium-byRecorder_test.iml" group="second-web-selenium-byRecorder" />
     </modules>
   </component>
 </project>
