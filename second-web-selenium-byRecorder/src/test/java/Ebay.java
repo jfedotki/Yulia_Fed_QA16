@@ -39,12 +39,12 @@ public class Ebay {
 
         driver.findElement(By.id("gh-ug")).click();
 
-        driver.findElement(By.id("userid")).clear();
         driver.findElement(By.id("userid")).click();
+        driver.findElement(By.id("userid")).clear();
         driver.findElement(By.id("userid")).sendKeys("jfedotkina@yahoo.com");
 
-        driver.findElement(By.id("pass")).clear();
         driver.findElement(By.id("pass")).click();
+        driver.findElement(By.id("pass")).clear();
         driver.findElement(By.id("pass")).sendKeys("Aviva001");
 
         if(!driver.findElement(By.id("csi")).isEnabled()) {
