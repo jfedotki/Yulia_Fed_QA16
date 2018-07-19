@@ -28,7 +28,7 @@ public class GroupCreationTest {
     @AfterMethod
     public void tearDown() throws Exception {
         CommonActions.returnHomePage(wd);
-        wd.quit();
+       // wd.quit();
     }
 
 
