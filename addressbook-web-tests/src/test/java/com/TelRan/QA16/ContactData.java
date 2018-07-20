@@ -12,7 +12,6 @@ public class ContactData {
     }
 
     public ContactData() {
-
     }
 
     public String getFirstName() {
@@ -35,24 +34,31 @@ public class ContactData {
         return address;
     }
 
-    public void setFirstName(String firstName) {
+    public ContactData setFirstName(String firstName) {
+
         this.firstName = firstName;
+        return this;
     }
 
-    public void setLastName(String lastName) {
+    public ContactData setLastName(String lastName) {
+
         this.lastName = lastName;
+        return this;
     }
 
-    public void setEmail1(String email1) {
+    public ContactData setEmail1(String email1) {
         this.email1 = email1;
+        return this;
     }
 
-    public void setPhone(String phone) {
+    public ContactData setPhone(String phone) {
         this.phone = phone;
+        return this;
     }
 
-    public void setAddress(String address) {
+    public ContactData setAddress(String address) {
         this.address = address;
+        return this;
     }
 
     @Override
