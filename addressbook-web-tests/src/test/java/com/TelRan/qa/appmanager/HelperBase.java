@@ -20,18 +20,18 @@ public class HelperBase {
     }
 
     public boolean isElementPresent(By locator) {
-        //try {
-       //     int size = wd.findElements(locator).size();
-         //   wd.findElements(locator);
-         //   return true;
-        //} catch (NoSuchElementException e) {
-       //     return false;
-       // }
-        if (wd.findElements(locator).size()==0){
-            return false;
-        }else{
-            return true;
+        try {
+
+         wd.findElement(locator);
+          return true;
+        } catch (NoSuchElementException e) {
+          return false;
         }
+        //if (wd.findElements(locator).size()==0){
+          //  return false;
+      //  }else{
+      //      return true;
+       // }
     }
     public void goHome(){
         click(By.xpath("//*[@href='./']"));
