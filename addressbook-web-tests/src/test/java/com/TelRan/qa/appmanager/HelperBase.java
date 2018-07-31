@@ -1,0 +1,42 @@
+package com.TelRan.qa.appmanager;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+
+public class HelperBase {
+   public WebDriver wd;
+
+    public HelperBase(WebDriver wd) {
+        this.wd = wd;
+    }
+    public void click(By locator){
+        wd.findElement(locator).click();
+    }
+    public void type(By locator, String text){
+        click(locator);
+        wd.findElement(locator).clear();
+        wd.findElement(locator).sendKeys(text);
+    }
+
+    public boolean isElementPresent(By locator) {
+        //try {
+       //     int size = wd.findElements(locator).size();
+         //   wd.findElements(locator);
+         //   return true;
+        //} catch (NoSuchElementException e) {
+       //     return false;
+       // }
+        if (wd.findElements(locator).size()==0){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    public void goHome(){
+        click(By.xpath("//*[@href='./']"));
+    }
+    public int elementsCount(By locator) {
+        return wd.findElements(locator).size();
+    }
+}

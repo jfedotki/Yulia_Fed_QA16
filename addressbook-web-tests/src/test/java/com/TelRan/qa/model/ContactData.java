@@ -1,4 +1,4 @@
-package com.TelRan.QA16;
+package com.TelRan.qa.model;
 
 public class ContactData {
     String firstName,lastName,email1,phone,address;
@@ -63,7 +63,7 @@ public class ContactData {
 
     @Override
     public String toString() {
-        return "com.TelRan.QA16.ContactData{" +
+        return "ContactData{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email1='" + email1 + '\'' +
