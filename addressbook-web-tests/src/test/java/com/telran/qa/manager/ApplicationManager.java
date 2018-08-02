@@ -1,5 +1,6 @@
-package com.TelRan.qa.appmanager;
+package com.telran.qa.manager;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,7 +15,7 @@ public class ApplicationManager {
 
     public void start(){
         wd =new ChromeDriver();
-        SessionHelper sessionHelper = new SessionHelper(wd);
+        sessionHelper = new SessionHelper(wd);
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         sessionHelper.openSite("http://localhost/addressbook");
         sessionHelper.login("admin","secret");
@@ -45,6 +46,7 @@ public class ApplicationManager {
     public ContactHelper getContactHelper() {
         return contactHelper;
     }
+
 }
 
 

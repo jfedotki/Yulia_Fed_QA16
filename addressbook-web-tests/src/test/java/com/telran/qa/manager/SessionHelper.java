@@ -1,9 +1,10 @@
-package com.TelRan.qa.appmanager;
+package com.telran.qa.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class SessionHelper extends HelperBase {
+
     public SessionHelper(WebDriver wd) {
         super(wd);
     }
@@ -18,4 +19,9 @@ public class SessionHelper extends HelperBase {
         type(By.name("pass"),password);
         click(By.xpath("//*[@value='Login']"));
         }
+    public void logout() {
+        click(By.linkText("Logout"));
+
+    }
+
 }

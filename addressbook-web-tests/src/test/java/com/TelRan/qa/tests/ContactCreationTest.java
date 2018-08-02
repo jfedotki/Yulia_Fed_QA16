@@ -1,6 +1,6 @@
-package com.TelRan.qa.tests;
+package com.telran.qa.tests;
 
-import com.TelRan.qa.model.ContactData;
+import com.telran.qa.model.ContactData;
 import org.testng.annotations.Test;
 
 public class ContactCreationTest extends TestBase {

@@ -1,6 +1,6 @@
-package com.TelRan.qa.appmanager;
+package com.telran.qa.manager;
 
-import com.TelRan.qa.model.ContactData;
+import com.telran.qa.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -44,25 +44,16 @@ public class ContactHelper extends HelperBase {
 
     public void contactFill(ContactData contact) {
 
-        if(contact.getFirstName()!=null){
+
             type(By.name("firstname"),contact.getFirstName());
-        }
 
-        if(contact.getLastName()!=null) {
             type(By.name("lastname"),contact.getLastName());
-        }
 
-        if(contact.getAddress()!=null) {
             type(By.name("address"),contact.getAddress());
-        }
 
-        if(contact.getEmail1()!=null) {
             type(By.name("email"),contact.getEmail1());
-        }
 
-        if(contact.getPhone()!=null) {
             type(By.name("home"),contact.getPhone());
 
-        }
     }
 }

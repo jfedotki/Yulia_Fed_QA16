@@ -1,4 +1,4 @@
-package com.TelRan.qa.tests;
+package com.telran.qa.tests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

@@ -1,6 +1,6 @@
-package com.TelRan.qa.tests;
+package com.telran.qa.tests;
 
-import com.TelRan.qa.model.GroupData;
+import com.telran.qa.model.GroupData;
 import org.testng.annotations.Test;
 
 public class GroupCreationTest extends TestBase {
