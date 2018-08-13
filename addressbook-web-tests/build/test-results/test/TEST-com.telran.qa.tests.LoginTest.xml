@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.qa.tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-09T14:19:13" hostname="DESKTOP-I9FM49P" time="0.999">
+<testsuite name="com.telran.qa.tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-13T16:54:54" hostname="DESKTOP-I9FM49P" time="0.94">
   <properties/>
-  <testcase name="testLog" classname="com.telran.qa.tests.LoginTest" time="0.999"/>
+  <testcase name="testLog" classname="com.telran.qa.tests.LoginTest" time="0.94"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
