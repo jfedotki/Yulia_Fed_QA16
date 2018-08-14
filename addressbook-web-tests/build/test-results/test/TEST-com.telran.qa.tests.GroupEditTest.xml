@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.qa.tests.GroupEditTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-14T16:09:28" hostname="DESKTOP-I9FM49P" time="42.5">
+  <properties/>
+  <testcase name="editGroupTest" classname="com.telran.qa.tests.GroupEditTest" time="42.5"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

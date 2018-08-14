@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.qa.tests.ContactDeleteTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-08-14T16:11:17" hostname="DESKTOP-I9FM49P" time="42.473">
+  <properties/>
+  <testcase name="testContactDeleteByIndex" classname="com.telran.qa.tests.ContactDeleteTest" time="7.05"/>
+  <testcase name="testContactDeleteViaEdit" classname="com.telran.qa.tests.ContactDeleteTest" time="5.743"/>
+  <testcase name="testContactDeletionAccept" classname="com.telran.qa.tests.ContactDeleteTest" time="20.074"/>
+  <testcase name="testContactDeletionDismiss" classname="com.telran.qa.tests.ContactDeleteTest" time="9.589"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

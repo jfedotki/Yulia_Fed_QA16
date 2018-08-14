@@ -6,6 +6,21 @@
             <class name="com.telran.qa.tests.LoginTest" />
         </classes>
     </test>
+    <test name ="GroupTests">
+        <classes>
+            <class name="com.telran.qa.tests.GroupCreationTest"/>
+            <class name="com.telran.qa.tests.GroupEditTest"/>
+            <class name="com.telran.qa.tests.GroupDeleteTest"/>
 
+        </classes>
+    </test>
+    <test name ="ContactTests">
+        <classes>
+            <class name="com.telran.qa.tests.ContactCreationTest"/>
+            <class name="com.telran.qa.tests.ContactEditTest"/>
+            <class name="com.telran.qa.tests.ContactDeleteTest"/>
+
+        </classes>
+    </test>
 
 </suite>

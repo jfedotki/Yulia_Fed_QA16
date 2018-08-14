@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.qa.tests.ContactCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-14T16:10:36" hostname="DESKTOP-I9FM49P" time="36.075">
+  <properties/>
+  <testcase name="testContactCreation" classname="com.telran.qa.tests.ContactCreationTest" time="36.075"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
